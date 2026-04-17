@@ -1,0 +1,46 @@
+{
+  "name": "FleetGuard",
+  "short_name": "FleetGuard",
+  "description": "Fleet Management Platform — vehicles, drivers, compliance & more",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f1117",
+  "theme_color": "#0f1117",
+  "lang": "en",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Fleet Vehicles",
+      "url": "./#vehicles",
+      "description": "View and manage fleet vehicles"
+    },
+    {
+      "name": "Alerts",
+      "url": "./#alerts",
+      "description": "View compliance and fleet alerts"
+    }
+  ]
+}
